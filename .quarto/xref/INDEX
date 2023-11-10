@@ -61,5 +61,26 @@
   },
   "lecture6/visualizations.qmd": {
     "visualizations.html": "e30c0982"
+  },
+  "lecture7/hypothesisTesting.qmd": {
+    "hypothesisTesting.html": "0c3e4aa1"
+  },
+  "lecture8/correlation&regressionPart1.qmd": {
+    "correlation&regressionPart1.html": "1c02f994"
+  },
+  "lecture8/correlation&regressionPart2.qmd": {
+    "correlation&regressionPart2.html": "5aa55d0c"
+  },
+  "introLongitudinal/introLongitudinalSEM.qmd": {
+    "introLongitudinalSEM.html": "a3d94391"
+  },
+  "Lecture1aging/lecture1.qmd": {
+    "lecture1.html": "007f190a"
+  },
+  "Lecture2aging/lecture2.qmd": {
+    "lecture2.html": "0fac8b88"
+  },
+  "Lecture3aging/lecture3.qmd": {
+    "lecture3.html": "548ad737"
   }
 }
