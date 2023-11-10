@@ -41,11 +41,11 @@ csl: apa.csl
 
 ## Nominal data {.smaller .smaller background-image="slide2.png" background-opacity="0.5"}
 
-```{r, echo=TRUE}
+```{r, echo=TRUE }
 
 library(ggplot2)  ### <- this is a package in R to create pretty plots.
 ## setwd() is a function to set my working directory (folder where the data is located)
-setwd("C:/Users/emontenegro1/Documents/MEGA/stanStateDocuments/PSYC3000/lecture4")
+setwd("~/MEGA/stanStateDocuments/PSYC3000/lecture4")
 rumination <- read.csv("ruminationComplete.csv") 
 rumination$sex <- factor(rumination$sex, labels = c("female", "male"))
 ggplot(data = rumination, aes(x = sex)) + 

@@ -43,5 +43,23 @@
   },
   "geoWeekPresentation/gentleR.qmd": {
     "gentleR.html": "cec113c1"
+  },
+  "lecture1/ResearchDesigns.qmd": {
+    "ResearchDesigns.html": "e32574f7"
+  },
+  "lecture2/Sampling.qmd": {
+    "Sampling.html": "2417ad87"
+  },
+  "lecture3/introProbAndStats.qmd": {
+    "introProbAndStats.html": "59e611d2"
+  },
+  "lecture4/Distributions.qmd": {
+    "Distributions.html": "f79155bd"
+  },
+  "lecture5/centralTendency.qmd": {
+    "centralTendency.html": "9586aa65"
+  },
+  "lecture6/visualizations.qmd": {
+    "visualizations.html": "e30c0982"
   }
 }

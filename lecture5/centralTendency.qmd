@@ -50,7 +50,7 @@ Where:
 ***Example***
 
 ```{r echo=TRUE}
-setwd("C:/Users/emontenegro1/Documents/MEGA/stanStateDocuments/PSYC3000/lecture5")
+setwd("~/MEGA/stanStateDocuments/PSYC3000/lecture5")
 
 rum <- read.csv("ruminationComplete.csv")
 
