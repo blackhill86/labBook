@@ -1,0 +1,427 @@
+---
+title: "Gentle introduction to `R`"
+title-slide-attributes:
+  data-background-image: stan_state_screen_5.png
+  #data-background-size: contain
+  data-background-opacity: "0.3"
+author: "Esteban Montenegro-Montenegro, PhD"
+institute: "Department of Psychology and Child Development"
+format: 
+  revealjs: 
+    footer: "[**Visit my website**](https://blackhill86.github.io/mm2/)"
+    theme: [moon, customTheme.sass]
+    header-logo: warrior_head2.png
+    slide-number: true
+    self-contained: false
+    preview-links: true
+    chalkboard: 
+      theme: whiteboard
+filters: 
+  - reveal-header      
+highlight-style: dracula
+code-block-bg: true
+code-block-border-left: "#A41728"
+from: markdown+emoji
+editor: visual
+logo: stan-state-logo_nickname-full-color.png
+---
+
+## What is [R]{.blue}?
+
+`R` is a programming language mostly used in statistics. It was created by statisticians.
+
+R was inspired by the statistical language `S` developed by At&T. `S` stands for "statistics" and it was written based on `C` language. After `S` was sold to a small company, `S`-plus was created with a graphical interface.
+
+## What is [R]{.blue} (II)?
+
+-   `R` was considered a "statistics" language, but nowadays it can perform more tasks. We will see examples where you can create a website, create a dashboard, create a teaching notebook, and presentation slides!
+
+-   `R` also provides multiple options to create graphics and plots. The options are infinite when you use a programming language.
+
+## Why should we use `R`? {.smaller .scrollable background-opacity="0.5"}
+
+::: r-stack
+![](rgrowth.png){.fragment width="600" height="400"}
+
+![](rarea.png){.fragment width="444" height="444"}
+
+![](rtiobe.png){.fragment width="444" height="444"}
+:::
+
+## Why should we use `R`? {.smaller .scrollable background-opacity="0.5"}
+
+[![TIOBE index of R overtime](rtiobe2.png)](https://www.tiobe.com/tiobe-index/r/)
+
+## Why should we use `R`? {.smaller .scrollable background-opacity="0.5"}
+
+::: columns
+::: {.column width="70%"}
+::: fragment
+-   `R` is free and open-source software. `R` is available as Free Software under the terms of the Free Software Foundation's GNU General Public License.
+:::
+
+::: {.fragment .fade-up}
+-   The amount of users grow every second.
+:::
+
+::: {.fragment .fade-up}
+-   It is friendly with non-programmers (You don't believe me I know...).
+:::
+
+::: {.fragment .fade-up}
+-   The amount of packages is growing (19985 packages as today).
+:::
+
+::: {.fragment .fade-up}
+-   You don't depend on buying a license.
+:::
+
+::: {.fragment .fade-up}
+-   You can see what is under the hood.
+:::
+
+::: {.fragment .fade-up}
+-   There are many jobs where `R` skills are needed.
+:::
+:::
+
+::: {.column width="30%"}
+![](tea_2.jpg)
+
+::: {.fragment .fade-up}
+-   You'll have access to cutting-edge quantitative methods and models.
+:::
+
+::: {.callout-important title="More info" appearance="simple" collapse="true"}
+See [datacamp.com](https://www.datacamp.com/blog/top-programming-languages-for-data-scientists-in-2022){target="_blank"} opinion.
+:::
+:::
+:::
+
+# How `R` works? {.center .sectionhead}
+
+## 
+
+-   `R` is an interpreted language, that means you don't need to compile the code. You will need to use a command-line interpreter.
+
+-   It is an [object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming){target="_blank"} programming language. It represents the information using virtual objects.
+
+![](fancy.jpg){fig-align="right" width="300"}
+
+## Packages are the key {.smaller .scrollable background-opacity="0.5"}
+
+-   `R` has several built-in functions but they are not enough to answer all the possible research questions a researcher will have.
+
+-   `R` users support their data analysis using [packages]{.blue} that other members of the community developed.
+
+-   These packages are actually software and they can be installed very easily in `R`. You don't have to program anything, there are 19 985 packages as today. But of course, you might need to program some routines if your problem is very specific.
+
+-   The packages are all located in a large repository call [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/web/packages/available_packages_by_name.html){target="_blank"}
+
+# Let's jump into `R` {.center .sectionhead}
+
+## Editors and IDE {.smaller .scrollable background-opacity="0.5"}
+
+-   Most famous IDE (Integrated Development Environment):
+    -   [RStudio](https://posit.co/download/rstudio-desktop/){target="_blank"}
+    -   [Visual Studio Code](https://code.visualstudio.com/download)
+-   Not so famous but still powerful and [full open source:]{.blue}
+    -   [EMACS](https://www.gnu.org/software/emacs/download.html){target="_blank"}
+    -   [VIM](https://www.vim.org/download.php){target="_blank"}
+
+# Everything is an object, everything is a function {.center .sectionhead}
+
+## Types of objects {.smaller .scrollable background-opacity="0.5"}
+
+-   Objects in `R` have properties and names, similar to real objects:
+    -   vectors
+    -   data frame
+    -   lists
+    -   arrays
+    -   functions
+-   These are just the most common objects in `R`. I'll explain a little bit of each one.
+
+## Vectors {.smaller .scrollable background-opacity="0.5"}
+
+-   It is the most basic object, it is the bones of `R`.
+
+-   In human language, they look like lists of elements. But, when mixed different type of data (letters mixed with numbers) things get messy:
+
+```{r, echo= TRUE}
+### Let's create a vector with names:
+
+randomNames <- c("Randall", "Pablo", "Emma")
+
+print(randomNames) #You don't need to type print. This is for teaching purposes. 
+```
+
+Let's see what happen's when I mix numbers and letters:
+
+```{r, echo= TRUE}
+
+numbersNames <- c("one",1, 2, "two", 3, "three")
+print(numbersNames)
+```
+
+`R` coerces everything to be a string or character vector.
+
+-   You may also subset a vector by using `[]` as an index indicator
+
+```{r, echo=TRUE}
+numbersNames[4]
+```
+
+## Data frames {.smaller .scrollable background-opacity="0.5"}
+
+-   Data frame is the most useful type of object when you conduct data analysis.
+
+-   A data frame is several lists combined together, and it looks pretty much like a matrix or a spreadsheet:
+
+```{r, echo=TRUE}
+#| code-fold: true
+#| code-summary: "Show the code"
+mtcars
+```
+
+##  {.smaller .scrollable background-opacity="0.5"}
+
+Let's beautify the data frame output:
+
+```{r, echo=TRUE}
+#| code-fold: true
+#| code-summary: "Show the code"
+library(DT)
+datatable(mtcars,
+          rownames = TRUE) 
+```
+
+## Lists {.smaller .scrollable background-opacity="0.5"}
+
+-   Lists are flexible and easy to manipulate in `R`. You can combine different types of objects in a single list:
+
+```{r, echo=TRUE}
+#| code-fold: true
+#| code-summary: "Show the code"
+
+### Let's create different types of objects
+
+### Data frame
+
+data_1 <- data.frame(v1= rnorm(8),
+                     v2 = rnorm(8),
+                     v3 = rnorm(8))
+
+### Vector
+
+moreNames <- c("Bob", "Paris", "Ana")
+
+### Numeric vector
+
+numericVector <- c(1,3,78,90)
+
+### We can group all these objects in a list
+
+listOfObjects <- list(data_1,
+                      moreNames,
+                      numericVector)
+print(listOfObjects)
+```
+
+If you need to access one object in the list you may use its location plus `[[]]`:
+
+```{r, echo=TRUE}
+#| code-fold: true
+#| code-summary: "Show the code"
+
+listOfObjects[[2]]
+```
+
+## Arrays {.smaller .scrollable background-opacity="0.5"}
+
+-   I don't use arrays in my code, but they are common in in `R` and other languages.
+
+-   An arrays is a multidimensional object, you can have multiple "slices" of information in on single object.
+
+-   It is similar to a multi-layer object.
+
+```{r, echo=TRUE}
+array(c(matrix(1:4,2,2)), dim=c(2,2,3))
+```
+
+## Functions {.smaller .scrollable background-opacity="0.5"}
+
+-   A function is a data object that requires input information, in return; it will give an output.
+
+-   I have already used several functions (e.g. `data.frame()`, `rnorm()`).
+
+-   Functions will always follow the following structure:
+
+```{r, echo=TRUE,eval=FALSE}
+
+myFunction <- function(argument1, argument2, ...){ 
+  
+  operation
+  
+  return()
+  
+  }
+
+```
+
+-   We can study the following case, where I created a function to estimate your age:
+
+```{r, echo=TRUE, eval=TRUE, include=TRUE}
+#| code-fold: true
+#| code-summary: "Show the code"
+estimateAge <- function(myBirthday) {
+  ### Function to check if year is a
+  ### leap year.
+  
+  leapyear <- function(year) {
+    return(((year %% 4 == 0) & (year %% 100 != 0)) | (year %% 400 == 0))
+  }
+  
+  ### Information necessary to compute age
+  myBirthday2 <- as.Date(myBirthday)
+  today <- Sys.Date()
+  year <- as.numeric(format(myBirthday2, "%Y"))
+  leapCheck <- leapyear(year)
+  
+  
+  if (leapCheck == TRUE) {
+    ## leap year
+    age <- difftime(today,
+                    myBirthday2 ,
+                    units = "days") / (365 + 1)
+    
+  } else {
+    ## No leap year
+    age <- difftime(today,
+                    myBirthday2,
+                    units = "days") / 365
+    
+  }
+  
+  message("Your age is"," ", age)
+}
+```
+
+-   My function `estimateAge()` requires only one argument `myBirthday`, that argument is passed to the computation inside the function to estimate the age.
+
+```{r, echo=TRUE, eval=TRUE, include=TRUE, message=TRUE}
+## Let's enter my date of birth
+estimateAge("1986-01-28") 
+```
+
+-   But don't worry, you don't have to compute age like I did. There is already a package that has all the tools to manipulate dates. It is the package `lubridate`.
+
+# More applications beyond statistics {.center .sectionhead}
+
+## ShinyApps {.smaller .scrollable background-opacity="0.5"}
+
+-   [Watch Crime](https://shiny.posit.co/r/gallery/government-public-sector/crime-watch/){target="_blank"}
+
+-   [Water quality dashboard](https://shiny.posit.co/r/gallery/government-public-sector/lake-profile-dashboard/){target="_blank"}
+
+-   [Interactive data visualization](https://shiny.posit.co/r/gallery/interactive-visualizations/movie-explorer/){target="_blank"}
+
+-   [Super Zips](https://shiny.posit.co/r/gallery/interactive-visualizations/superzip-example/){target="_blank"}
+
+## Web Pages {.smaller .scrollable background-opacity="0.5"}
+
+[- Andrew Heiss](https://www.andrewheiss.com/){target="_blank"}
+
+[- Quantum Jitter](https://www.quantumjitter.com/project/){target="_blank"}
+
+[- Ella Kaye](https://ellakaye.co.uk/){target="_blank"}
+
+[- Books](https://r-pkgs.org/){target="_blank"}
+
+[- University Course](https://lse-dsi.github.io/DS101/){target="_blank"}
+
+## Scientific articles and reports in pdf {.smaller .scrollable background-opacity="0.5"}
+
+[- Article](https://cmarquardt.github.io/quarto-simple-article/){target="_blank"}
+
+[- Report](https://github.com/numbats/monash-quarto-report/blob/main/examples/template.pdf){target="_blank"}
+
+## We can also add `R` code and run it in our websites
+
+<iframe src="https://blackhill86.github.io/mm2/practice2/practice2.html#practice2" width="75%" height="75%" frameborder="0" scrolling="yes">
+
+</iframe>
+
+# We can paint happy plots in `R` {.center .sectionhead}
+
+![](bobross.jpg){fig-align="center" width="350"}
+
+## Happy penguins {.smaller .scrollable background-opacity="0.5"}
+
+```{r, warning=FALSE, message=FALSE, error=FALSE, echo=TRUE}
+#| code-fold: true
+#| code-summary: "Show the code"
+
+### The rule is to write the packages required by your code at the beginning
+## Packages loaded or called
+library(jpeg)             ## reads pictures into R
+library(patchwork)         ## more tools to add features in a plot
+library(ggplot2)          ## creates plots
+library(palmerpenguins)  ## This package has the penguin data
+
+picture <- "penguins.jpg"
+img <- readJPEG(picture, native = TRUE)
+
+### Plotting the data using ggplot2
+
+ggplot(penguins, aes(x = flipper_length_mm, 
+                     y= body_mass_g,
+                     color = species)) +
+  geom_point() + 
+  geom_smooth(se = FALSE, method = "lm" ) + 
+  theme_classic() +  
+  xlab("Flipper Length in milimeters")+
+  ylab("Body Mass in grams")+
+  inset_element(p = img,
+                left = 0.05,
+                bottom = 0.65,
+                right = 0.5,
+                top = 0.95)
+```
+
+## You can create art {.smaller .scrollable background-opacity="0.5"}
+
+::: columns
+::: {.column width="40%"}
+[Danielle Navarro's blog](https://blog.djnavarro.net/posts/2023-03-31_generative-art-with-grid/){target="_blank"}
+:::
+
+::: {.column width="60%"}
+[Basics on generative art](https://blog.djnavarro.net/posts/2021-10-19_rtistry-posts/){target="_blank"}
+:::
+:::
+
+![](flametree.png){fig-align="center"}
+
+```{=html}
+<!--# Add model summary: https://modelsummary.com/. Also add  https://blog.djnavarro.net/posts/2023-03-31_generative-art-with-grid/
+And generative art
+Add anput packages and CRAN
+-->
+```
+## GIS and spatial data {.smaller .scrollable background-opacity="0.5"}
+
+![](https://www.andrewheiss.com/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index_files/figure-html/numenor-map-correct-1.png){.absolute top="200" left="10f" width="500" height="500"}
+
+![](ring2.jpg){.absolute top="200" right="0" width="200" height="200"}
+
+[Making Middle Earth maps with R](https://www.andrewheiss.com/blog/2023/04/26/middle-earth-mapping-sf-r-gis/){target="_blank"}
+
+# Remember...
+
+[![](programmers-credo.jpg)](https://www.globalnerdy.com/2021/06/07/the-programmers-credo/)
+
+# Thank you for you attention! {.center .sectionhead}
+
+[[{{< fa brands mastodon >}}](https://fediscience.org/@montenegro)]{.blue} Follow me on Mastodon.
+
+{{< fa solid envelope beat >}} <a href="mailto:emontenegro1@csustan.edu">emontenegro1\@csustan.edu</a>

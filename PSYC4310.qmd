@@ -1,0 +1,25 @@
+---
+title: "PSYC4310: Seminar in Social Psychology"
+format: html
+editor: visual
+---
+
+# Welcome to my Seminar in Social Psychology!
+
+The Seminar in Social Psychology is in reality an excuse to conduct research in a wide number of topics. The main goal in simple words is to provide a space where the students can take their first steps to prepare a research proposal, and create a scientific poster.
+
+![](trojan.jpg){fig-alt="It is a joke where a professor brings a trojan horse. On the top of the picture it says \" research in social psychology\" inside the trojan horse it says \"R code\", and there is a castle named \"students\". The trojan horse was send to the castle, in this case, the students." width="300"}
+
+In this course I usually try to add some `R` code along with stats, because why not? statistics are everywhere and they are fun!
+
+You may check a sample of the syllabus: [Syllabus](syllabusPSYC4310.qmd#syllabus4310){target="_blank"}
+
+## You may also check some of the presentations I prepared for this course:
+
+[Lecture 1: The journey to the begining](Lecture1Psyc4310/researchJourney.qmd#lecture1Psyc4310){target="_blank"}
+
+[Lecture 2: Designing your research project](Lecture2Psyc4310/ResearchDesign.qmd#lecture2Psyc4310){target="_blank"}
+
+## Supporting materials
+
+[How to use SONA?](SONA/sonaTutorial.qmd#sona-tutorial){target="_blank"}

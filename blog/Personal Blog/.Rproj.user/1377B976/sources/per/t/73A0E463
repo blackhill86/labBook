@@ -1,0 +1,31 @@
+{
+    "id": "73A0E463",
+    "path": "~/MEGA/stanStateDocuments/webPage/blog/Personal Blog/about.qmd",
+    "project_path": "about.qmd",
+    "type": "quarto_markdown",
+    "hash": "916549255",
+    "contents": "",
+    "dirty": false,
+    "created": 1694068855292.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "4,18",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1694069178,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1694069178707,
+    "read_only": false,
+    "read_only_alternatives": []
+}

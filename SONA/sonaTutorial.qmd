@@ -1,0 +1,165 @@
+---
+title: "SONA Tutorial"
+title-block-banner: true
+author: "Esteban Montenegro-Montenegro"
+date: 2023-10-02
+format: 
+  html:
+    highlight-style: a11y-dark
+    #page-layout: custom
+    #code-tools: true
+#server: shiny
+#editor: visual
+theme: 
+  light: sandstone
+  dark: cyborg
+toc: true
+toc-depth: 3
+toc-title: Sections
+self-contained: true
+bibliography: references.bib
+csl: apa.csl
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Description
+
+SONA is an online software created by [SONA
+Systems](https://www.sona-systems.com/){target="_blank"}, several
+universities and private research companies use similar software to keep
+track of research participants and their compensation after
+participating in a study.
+
+The Department of Psychology and Child Development has its own instance
+using this software, you may log in by going to the portal on this
+[link](https://csustan.sona-systems.com/){target="_blank"}.
+
+If you are taking my class, it is likely I already added you to SONA's
+database, therefore you will be able to create new studies on SONA.
+
+I will show you on this tutorial how to create a new study on SONA.
+
+### Step 1
+
+Go to the psychology log in web page by [clicking
+here.](https://csustan.sona-systems.com/){target="_blank"}
+
+The webpage should look like the picture below:
+
+![](step1.png)
+
+### Step 2
+
+Type your CSU Stan email as your `User ID`, and the password you set
+before. You may have recieved an email with a random temporal password.
+You may continue using the random password or change it to a more
+friendly and secure password.
+
+### Step 3
+
+You will see a page similar to the one showed next. But, in your case it
+should say that you have two roles, one role is `participant` and the
+other is `researcher`. Select your role as `researcher` to start
+creating your new study. In my case, I have two roles, I'm
+`administrator` and `principal investigator`.
+
+![](step3.png)
+
+### Step 4
+
+Once you select your role as `researcher` , you will see the following
+page:
+
+![](step4.png)
+
+Click on ***"Create a new study"*** as showed in the picture.
+
+### Step 5
+
+You will see a new page after clicking on ***"Create a new study"***. In
+this new page, you will see multiple options. In most cases, the right
+option is "Online External Study" as shown in the image below:
+
+![](step5.png)
+
+Select the option that says "Credit", we don't have money to pay for
+participation {{< fa face-sad-tear size=1x style="color: #0f0f10;" >}}. After that,
+click on "Continue"
+
+### Step 6
+
+In this step you will have to type specific information related to
+your research project:
+
+- Study Name
+- Brief Abstract
+- Detailed Description
+- Eligibility Requirements: add requirement such as minimum age to participante.
+- Duration in minutes (write how long it takes to finish the survey)
+- How many credits will the participant earn after participating in your study? (You can specify 1 credit).
+- Preparation is optional. Keep it blank if you don't need to add information in this
+section.
+- Researcher: Look for my name and your group members in the list. Double click
+on the names to add them to the study as researchers. If you have the option to 
+specify a principal investigator you can add me there.
+- YOU MUST add your IRB approval number.
+- YOU MUST add your IRB approval expiration.
+- Approved? This is an option administrated by the general admin. This means
+that another faculty who is the general admin has to approve your project.
+- Study URL: you should add your Qualtrics link in this section. 
+
+You may ignore the rest of the options and keep the default values. 
+
+### Step 6
+
+After creating the study, you should click on "Study Menu" , and then
+click on "View/Administer Time Slots":
+
+![](step6.png)
+
+### Step 7
+
+Now click on "Add a Timeslot":
+
+![](step7.png)
+
+### Step 8
+
+Finally, set a Final Participation Date, normally the last day of classes should
+be appropriate. Set a final time, and type the maximum number of
+participants. Add a large number such as 300 participants. You will not get
+300 students but it is just better if you give a large number to the software.
+
+![](step8.png)
+
+
+### Step 9 
+
+After you finish all these steps, your project will be ready to be delivered
+on SONA but, there is an extra step: you have to ask for
+approval to the general admin, you will make the request by clicking: "Send
+request". The admin will return the decision with comments if 
+there are problems with the submission. 
+
+![](step9_2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+project:
+  type: website
+  render: 
+    - "index.qmd"
+    - "about.qmd"
+    #- "assignment4/assigment4.qmd"
+    - "PSYC3000.qmd"
+    - "lecture1/ResearchDesigns.qmd"
+    - "lecture2/Sampling.qmd"
+    - "lecture3/introProbAndStats.qmd"
+    - "lecture4/Distributions.qmd"
+    - "lecture5/centralTendency.qmd"
+    - "lecture6/visualizations.qmd"
+    - "lecture7/hypothesisTesting.qmd"
+    - "lecture8/correlation&regressionPart1.qmd"
+    - "lecture8/correlation&regressionPart2.qmd"
+    - "lecture9/AssumptionsAndMore.qmd"
+    - "lecture10/ModelComparasion.qmd"
+    - "introLongitudinal/introLongitudinalSEM.qmd"
+    - "agingCourse.qmd"
+    - "Lecture1aging/lecture1.qmd"
+    - "Lecture2aging/lecture2.qmd"
+    - "Lecture3aging/lecture3.qmd"
+    - "Lecture4aging/lecture4.qmd"
+    - "Lecture1Psyc4310/researchJourney.qmd"
+    - "Lecture2Psyc4310/ResearchDesign.qmd"
+    - "Hw1Sp2023Psyc3000/assigment1.qmd"
+    - "PSYC4310.qmd"
+    - "syllabusPSYC4310.qmd"
+    - "SONA/sonaTutorial.qmd"
+    - "practice2/practice2.qmd"
+    - "geoWeekPresentation/gentleR.qmd"
+
+   
+      
+
+website:
+  title: "{HASO}"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - PSYC3000.qmd
+      - href: agingCourse.qmd
+      - href: https://blackhill86.github.io/StatsBook/
+        text: StatsBook
+      - href: PSYC4310.qmd
+        text: Seminar SocialPsyc  
+      - href: about.qmd
+        text: About
+  sidebar:
+      style: "floating"
+      search: true
+      contents:
+        - section: "Content"
+          contents:
+          - index.qmd
+          - PSYC3000.qmd
+          - href: agingCourse.qmd
+          - href: https://blackhill86.github.io/StatsBook/
+            text: StatsBook
+          - href: PSYC4310.qmd
+            text: Seminar SocialPsyc
+          - href: about.qmd
+            text: About
+          
+
+format:
+  html:
+    theme: 
+      light: [sandstone, theme.scss]
+      dark: [cyborg, theme.scss]
+    #theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: Sections
+    toc-depth: 3
+
+
+

@@ -1,0 +1,101 @@
+---
+title: "Themes in adult development"
+author: "Esteban Montenegro-Montenegro, PhD."
+institute: "Psychology and Child Development Department"
+title-slide-attributes:
+    data-background-image: "background1.png"
+    data-background-opacity: "0.5"
+format: 
+ revealjs:
+   theme: [default, custom.scss]
+   slide-number: true
+   self-contained: true
+   #chalkboard: 
+    #theme: whiteboard
+editor: visual
+bibliography: references.bib
+#nocite: | 
+#  @apa7
+csl: apa.csl
+---
+
+## The biopsychosocial model {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+-   As you may have read in the first chapter, the authors introduced some misconceptions related to aging. My aim to guide the discussion related to being an aging adult from a biopsychosocial model.
+
+## The biopsychosocial model {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+The idea of the biopsychosocial model is to study human development from different fields and areas. We cannot isolate the human being an ignore the following main dimensions:
+
+-   *Biological dimension:* Physical changes and genetics.
+-   *Sociocultural dimension:* social context, history, culture.
+-   *Psychological dimension:* cognition, personality, emotions.
+
+![](bio.png){fig-alt="This is graph taken from chapter 1. In the image you will see a circle divided in three parts: the first part is biological, the second is sociocultural, and third part is psychological. The content of the picture is described in the slide." width="500"}
+
+## Gerontological perspective {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+-   ***Gerontology:*** is the scientific study of the aging process, is an interdisciplinary field. People who devote their professional lives to the study of gerontology come from many different academic and applied areas---biology, medicine, nursing, sociology, history, and even the arts and literature.
+
+-   Don't confuse gerontology with *geriatrics*. The latter is a medical field.
+
+## Four principles of adult development {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+1.  *Changes Are Continuous Over the Life Span:* Changing is a cumulative process, all the changes you experienced in the adolescence will affect your changes in adulthood. In science, we separate the human's life span into stages to make easier to study all the changes, but we need to see the context of those changes as a continuum interconnected.
+
+2.  *Only the Survivors Grow Old:* The survivor principle states that the people who live to old age are the ones who managed to outlive the many threats that could have caused their deaths at earlier ages. In human development, we aim to study how people survive, we also aim to describe the characteristic of the healthy survivor. Some survivors are individuals with better physical and cognitive skills, they might have also made changes in their lifestyle to live longer. But, there are a portion of individuals who never change their habits and still they live longer. Why do you think this happens?
+
+3.  *Individuality matter:* As @whitbourne2020adult mentioned in their book, people who are not scientist, assume that all older adults are "similar". This is a big misconception, as we grow older, we change a lot. Our life path starts becoming very different as we grow compare to our peers. You might find a lot of similar characteristics in teenagers, but aging adults will have a larger "baggage" where life events changed their development in different ways. This is always a challenge when you try to describe and predict changes in aging adults.
+
+::: callout-important
+## Important concepts
+
+`Interindividual differences:` differences between people.
+
+`Intraindividual differences:` differences *within* the same individual.
+:::
+
+4.  *"Normal" Aging Is Different From Disease*: The principle that normal aging is different from disease means that growing older doesn't necessarily mean growing sicker.
+
+## Is age a good measure to define "Adult"? {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+-   In many cultures there are laws or traditions based on age to define who is an adult.
+
+-   For instance, in USA an adult could be considered a person who is older than 21 years of age. But, in many countries in the world 18 years of age is the threshold. In fact, are there real differences between a person who is 18 years old compare to a 21 years old person? What marks the difference?
+
+-   Legally, and culturally, the age of consent, voting or driving a car defines this rule in several countries.
+
+## Functional age instead of chronological age {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+-   In gerontology is frequent to see research focused on *functional age* given that chronological can be confusing and misleading.
+
+-   There are three measures of functional age:
+
+    -   Biological age: cardiovascular fitness, muscle and bone strength, cellular aging.
+    -   Psychological age: reaction time, memory, learning ability.
+    -   Social age: work roles, family status, position in community.
+
+## Life is shaped by many influences {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+-   [Paul Baltes](https://en.wikipedia.org/wiki/Paul_Baltes){target="_blank"} was a German psychologist who created a vast number of information regarding human development. According to Baltes, there are *normative age-graded influences* that shape our life.
+
+-   For example, there a cultural norms that say when we should get married, when should we get our degrees, and when should we have children. If a person doesn't follow these norms, upsetting feelings emerge as a consequence of not meeting the social expectations.
+
+-   There are *normative history-graded influences*, these are events that happened to everyone or a cohort of individuals. Wars or economic trends are a good example. The best most recent example is the pandemic. The COVID-19 pandemic is a clear example of a historical influence in our development. These events will change the culture, politics, and your health if you got the virus.
+
+-   *Nonnormative influcences* are random idiosyncratic events that occur to an individual, they might occur with no regular pattern. It could be an accident, or a surgery.
+
+## Key social factors {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+-   There are important social factors that many times are moderators of our development as adults:
+
+    -   Sex at birth and gender
+    -   Race
+    -   Socioeconomic status (SES)
+    -   Religion
+
+## The demographic pyramid {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}
+
+![](pyra.png){fig-alt="This is a statistical bar plot. In this plot the reader can see how the older population will increment by the year 2060, compare to the amount of older adults in 1960. The most important message is that older adults will be a large demographic by 2060."}
+
+## References {.smaller .scrollable background-image="slide2.png" background-opacity="0.5"}

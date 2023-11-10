@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+
+$body-bg: #E2E1E0;
+$body-color: #000000;
+$link-color: #B19110;
+$presentation-heading-color: #830A1A;
+$code-color:#A41728;
+$code-block-bg: #515352;
+$code-block-border-color: #000000;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+$font-family-sans-serif: 'EB Garamond', serif;
+$presentation-heading-font: 'Cormorant Garamond', serif;
+
+/*-- scss:rules --*/
+
+
+h2, .h2 {
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: normal;
+   text-transform: uppercase;
+ }
+
+
+
+
+
+.reveal .slide-number {
+  color: #00609C;
+}
+
+.reveal .footer {
+  font-size: 0.35em !important;
+  text-align: center !important;
+}
+
+.reveal .slides section .fragment.semi-fade-out {
+	opacity: 1;
+	visibility: inherit;
+
+	&.visible {
+		opacity: 0.25;
+		visibility: inherit;
+	}
+}
+
+.sectionhead {
+  font-size: 0.5em;
+  text-align: center;
+  color: $presentation-heading-color;
+  font-family: $presentation-heading-font;
+  background-color: $body-bg;
+  margin: 1px;
+  padding: 2px 2px 2px 2px;
+  width: 120px;
+  border-left: 10px solid;
+}
+
+.blackbox {
+  color: #000000;
+  background-color: transparent;
+  margin: 1px;
+  padding: 5px 2px 5px 2px;
+  height: 205px;
+  border: 2px solid;
+}
+    .blue {
+  color: #00537E;
+  font-weight: bold;
+}
+
+.yellow {
+  color: $link-color;
+  font-weight: bold;
+}
+
+
+
+   

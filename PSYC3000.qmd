@@ -1,0 +1,64 @@
+---
+title: "PSYC3000"
+format: html
+editor: visual
+---
+
+# Welcome!
+
+If you are in this page is because you are an student in my PSYC 3000 class. Sometimes Canvas doesn't like my presentation in html format. So, I decided to create my own site where you can access my presentations.
+
+::: column-margin
+![](hexLogo.png)
+:::
+
+You might not be an student in my class, but you knew about me and this class from other sources. That's totally fine! You are also welcome!
+
+I share all the content in this site under a **Creative Commons** license, specifically the license [*CC BY-NC-ND 4.0*](https://creativecommons.org/licenses/by-nc-nd/4.0/). This means, you cannot use this material for commercial purposes, but you can use my material, and you MUST cite or mention the original source for non-commercial projects such as academic work.
+
+## Life is crazy, psychology is also numbers!
+
+At this point you might be thinking: "I decided to study psychology to avoid numbers!"
+
+But numbers are not avoidable if you want to be scientist or scientist practitioner. It might be boring sometimes, but other times you might have fun answering questions related to NATURE. Yes, NATURE!
+
+This is a psychology course, and my aim is to study statistics as a science that helps other sciences to study NATURE. Psychological processes are also part of NATURE, of course!
+
+# Lectures:
+
+[Lecture 1: Research designs](lecture1/ResearchDesigns.qmd#lecture1){target="_blank"}
+
+[Lecture 2: Sampling designs](lecture2/Sampling.qmd#lecture2){target="_blank"}
+
+[Lecture 3: Introduction to Probability and Statistics](lecture3/introProbAndStats.qmd#lecture3){target="_blank"}
+
+[Lecture 4: Probability distributions and random variables](lecture4/Distributions.qmd#lecture4){target="_blank"}
+
+[Lecture 5: Central Tendency Measures](lecture5/centralTendency.qmd#lecture5){target="_blank"}
+
+[Lecture 6: The art of plotting](lecture6/visualizations.qmd#lecture6){target="_blank"}
+
+[Lecture 7: Introduction to Hypothesis Testing](lecture7/hypothesisTesting.qmd#lecture7){target="_blank"}
+
+[Lecture 8: Correlation and Regression Models](lecture8/correlation&regressionPart1.qmd#lecture8){target="_blank"}
+
+[Lecture 8: Correlation and Regression Models Part 2](lecture8/correlation&regressionPart2.qmd#lecture8.2){target="_blank"}
+
+[Lecture 8: Correlation and Regression Models Part 3](lecture9/AssumptionsAndMore.qmd#lecture8.3){target="_blank"}
+
+[Lecture 9: Model selection](lecture10/ModelComparasion.qmd#lecture9){target="_blank"}
+
+# Assignments
+
+[Assignment #1](Hw1Sp2023Psyc3000/assigment1.qmd#hw1){target="_blank"}
+
+# Advanced topics and talks
+
+[A friendly Introduction to Longitudinal Analysis with Latent Variables](introLongitudinal/introLongitudinalSEM.qmd#long){target="_blank"}
+
+## GeoWeek 2023
+[Gentle Introduction to `R`](geoWeekPresentation/gentleR.qmd#gentleR){target="_blank"}
+
+# `R` excercises
+
+[Practice #2](practice2/practice2.qmd#practice2){target="_blank"}

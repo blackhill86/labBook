@@ -1,0 +1,23 @@
+---
+title: "Adulthood & Aging"
+format: html
+editor: visual
+---
+
+# Life span and aging
+
+As a researcher I'm interested in studying developmental changes in aging adults. I focus on healthy aging, and sometimes I study dementia. I combine these topics with my passion with statistical methods.
+
+Given my goals, I decided to teach the course *Adulthood and Aging* at CSU Stan. This section is dedicated to share my slides with any person who finds my materials useful. But, I aim primarily to create lectures for students at CSU Stan.
+
+You may see the slides in the next section.
+
+# Lectures
+
+[Lecture 1: Themes in adult development](Lecture1aging/lecture1.qmd#AgingLecture1){target="_blank"}
+
+[Lecture 2: "Models of Development: Nature and Nurture in Adulthood](Lecture2aging/lecture2.qmd#AgingLecture2){target="_blank"}
+
+[Lecture 3: Physical changes](Lecture3aging/lecture3.qmd#AgingLecture3){target="_blank"}
+
+[Lecture 4: The Study of Adult Development and Aging: Research Methods](Lecture4aging/lecture4.qmd#AgingLecture4){target="_blank"}
