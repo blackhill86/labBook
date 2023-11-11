@@ -22,7 +22,7 @@ jobs:
         
       - name: Install R Dependencies
         run: install.packages("rmarkdown", dependencies = TRUE)
-         shell: Rscript {0}
+        shell: Rscript {0}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
